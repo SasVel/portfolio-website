@@ -1,5 +1,29 @@
+
+@font-face {
+  font-family: '0xProto';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("fonts/0xProto/0xProto-Regular.woff2")format('woff2');
+}
+
 :root {
   --background: #241f31;
   --foreground: #eceae5;
   --accent: #f66151;
+}
+
+body {
+	font-family: '0xProto';
+}
+
+.logo {
+	font-size: x-large;
+	height: 200;
+}
+
+.logoImg {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }

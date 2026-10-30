@@ -1,0 +1,6 @@
+<a href="{{ if $.Site.Params.Logo.LogoHomeLink }}{{ $.Site.Params.Logo.LogoHomeLink }}{{else}}{{ $.Site.BaseURL }}{{ end }}">
+  <div class="logo">
+	<img class="logoImg" src="{{ $.Site.Params.Logo.img }}" width="120" height="120">
+    {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}Site Title{{ end }}
+  </div>
+</a>
