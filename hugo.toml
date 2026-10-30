@@ -1,4 +1,6 @@
 baseURL = 'https://sasvel.github.io/'
 locale = 'en-us'
-title = 'The Kinematic Blog'
+title = 'Kinematic Design'
 theme = 'terminal'
+[params.logo]
+	logoText = 'The Kinematic Blog'
