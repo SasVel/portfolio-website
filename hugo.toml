@@ -5,9 +5,10 @@ theme = 'terminal'
 defaultContentLanguage = 'en'
 pagination.pagerSize = 4
 
+copyright = "Created by Sas"
+
 [params]
   #Default post vaules
-
   author = "Sas"
   dateFormat = "02-01-2006"
 
@@ -50,6 +51,11 @@ pagination.pagerSize = 4
   # can be overridden in a page's front-matter
   # TocTitle = "Table of Contents" # default
 
+[params.socials]
+	blueskyLink = "https://bsky.app/profile/sasvel.itch.io"
+	mastodonLink = "https://mastodon.gamedev.place/@SasVel"
+	xLink = "https://x.com/Kinematic_Des"
+	githubLink = "https://github.com/SasVel"
 
 [params.logo]
 	logoText = 'The Kinematic Blog'
@@ -70,6 +76,7 @@ pagination.pagerSize = 4
       keywords = ""
       copyright = ""
       menuMore = "Show more"
+      share = "Share"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
       newerPosts = "Newer posts"

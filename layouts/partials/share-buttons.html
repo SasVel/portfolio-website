@@ -1,0 +1,50 @@
+<a class="big-text">:: Share: </a>
+<!-- Copy Link Button -->
+<a class="share-link share-copy"
+   onclick="copyLink('{{ .Permalink }}')"
+   target="_blank"
+   rel="noopener"
+   aria-label="Share on Bluesky">
+  <i class="fa-solid fa-share-nodes"></i>
+</a>
+<!-- Bluesky Share Button -->
+<a class="share-link share-bluesky"
+   href="https://bsky.app/intent/compose?text={{ .Title }} {{ .Description }} Read More! %20{{ .Permalink | urlquery }}"
+   target="_blank"
+   rel="noopener"
+   aria-label="Share on Bluesky">
+  <i class="fa-brands fa-bluesky fa-lg"></i>
+</a>
+<!-- Mastodon Share Button -->
+<a class="share-link share-mastodon"
+   href="#"
+   onclick="shareToMastodon('{{ .Title }}', '{{ .Permalink }}'); return false;"
+   aria-label="Share on Mastodon">
+  <i class="fa-brands fa-mastodon fa-lg"></i>
+</a>
+<!-- X Share Button -->
+<a class="share-link share-x-twitter"
+   href="https://x.com/intent/tweet?text={{ .Title }} {{ .Description }} Read More! %20{{ .Permalink | urlquery }}"
+   target="_blank"
+   rel="noopener"
+   aria-label="Share on X">
+  <i class="fa-brands fa-x-twitter fa-lg"></i>
+</a>
+<script>
+function copyLink(url) {
+  console.log(url)
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(url);
+
+  // Alert the copied text
+  alert("Link copied: " + url);
+}
+
+
+function shareToMastodon(title, url) {
+  var instance = prompt("Enter your Mastodon server (e.g., mastodon.social):", "mastodon.social");
+  if (!instance) return false;
+  var shareUrl = "https://" + instance + "/share?text=" + encodeURIComponent(title + " " + url);
+  window.open(shareUrl, '_blank');
+}
+</script>

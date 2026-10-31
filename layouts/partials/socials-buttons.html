@@ -1,0 +1,40 @@
+<!-- Bluesky Profile Button -->
+<a class="share-link share-bluesky"
+  onclick="openLink('{{ .Site.Params.Socials.blueskyLink }}')"
+  target="_blank"
+  rel="noopener"
+  aria-label="Profile on Bluesky">
+  <i class="fa-brands fa-bluesky fa-lg"></i>
+</a>
+
+<!-- Mastodon Profile Button -->
+<a class="share-link share-mastodon"
+   href="#"
+	onclick="openLink('{{ .Site.Params.Socials.mastodonLink }}')"
+   aria-label="Profile on Mastodon">
+  <i class="fa-brands fa-mastodon fa-lg"></i>
+</a>
+
+<!-- X Profile Button -->
+<a class="share-link share-x-twitter"
+	onclick="openLink('{{ .Site.Params.Socials.xLink }}')"
+   target="_blank"
+   rel="noopener"
+   aria-label="Profile on X">
+  <i class="fa-brands fa-x-twitter fa-lg"></i>
+</a>
+
+<!-- X Profile Button -->
+<a class="share-link share-x-twitter"
+	onclick="openLink('{{ .Site.Params.Socials.githubLink }}')"
+   target="_blank"
+   rel="noopener"
+   aria-label="Profile on Github">
+  <i class="fa-brands fa-github fa-lg"></i>
+</a>
+
+<script>
+function openLink(url) {
+  window.open(url, '_blank');
+}
+</script>
