@@ -19,6 +19,15 @@
 
 body {
 	font-family: '0xProto';
+  background-image: url("grid_tile.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 5rem;
+}
+
+.container.center {
+  background-color: var(--background);
+  box-shadow: 10px 0px 10px black, -10px 0px 10px black;
 }
 
 .logo {
