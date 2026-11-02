@@ -8,6 +8,7 @@ pagination.pagerSize = 4
 copyright = "Created by Sas"
 
 [params]
+
   #Default post vaules
   author = "Sas"
   dateFormat = "02-01-2006"
@@ -41,7 +42,7 @@ copyright = "Created by Sas"
   # updatedDatePrefix = "Updated"
 
   # whether to show a page's estimated reading time
-  # readingTime = false # default
+  readingTime = true # default
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
@@ -50,6 +51,10 @@ copyright = "Created by Sas"
   # set title for the table of contents
   # can be overridden in a page's front-matter
   # TocTitle = "Table of Contents" # default
+  showBreadcrumbs = true
+
+[params.cover]
+  linkFullImages = true
 
 [params.socials]
 	blueskyLink = "https://bsky.app/profile/sasvel.itch.io"
@@ -99,14 +104,14 @@ copyright = "Created by Sas"
           url = "/"
 		  weight = 1
         [[languages.en.menu.main]]
-          identifier = "posts"
-          name = "Posts"
-          url = "/posts"
+          identifier = "game-dev"
+          name = "Game Dev"
+          url = "/tags/game-dev"
 		  weight = 2
         [[languages.en.menu.main]]
-          identifier = "articles"
-          name = "Articles"
-          url = "/articles"
+          identifier = "tech"
+          name = "Tech"
+          url = "/tags/tech"
 		  weight = 3
         [[languages.en.menu.main]]
           identifier = "about"
@@ -148,9 +153,5 @@ copyright = "Created by Sas"
           url = "/posts"
         [[languages.bg.menu.main]]
           identifier = "about"
-          name = "About"
+          name = "About & Socials"
           url = "/about"
-        [[languages.bg.menu.main]]
-          identifier = "articles"
-          name = "Articles"
-          url = "/articles"

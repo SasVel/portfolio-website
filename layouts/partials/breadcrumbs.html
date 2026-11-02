@@ -1,0 +1,9 @@
+<ul class="breadcrumbs">
+    {{ if not (or (in .Title "404") (le .Ancestors.Len 1)) }}
+    {{- range after 1 .Ancestors.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <a>>></a>
+    {{- end }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
