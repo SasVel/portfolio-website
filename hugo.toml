@@ -1,4 +1,4 @@
-baseURL = 'https://sasvel.github.io/'
+baseURL = 'https://kin-design.is-cool.dev/'
 locale = 'en-us'
 title = 'Kinematic Design'
 theme = 'terminal'
