@@ -53,7 +53,7 @@ body {
 	font-size: x-large;
   font-weight: bold;
 	padding: 5;
-  width: 23rem;
+  width: 20rem;
   height: 8rem;
 }
 
@@ -123,5 +123,8 @@ a.share-github { color: var(--off-foreground); }
   a.share-github,a.share-mastodon
   {
     visibility: hidden;
+  }
+  .logo {
+    width: auto;
   }
 }
