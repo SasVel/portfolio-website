@@ -114,9 +114,9 @@ copyright = "Created by Sas"
           url = "/tags/game-dev"
 		  weight = 2
         [[languages.en.menu.main]]
-          identifier = "tech"
-          name = "Tech"
-          url = "/tags/tech"
+          identifier = "thoughts"
+          name = "Thoughts"
+          url = "/tags/thoughts"
 		  weight = 3
         [[languages.en.menu.main]]
           identifier = "about"

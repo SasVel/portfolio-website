@@ -3,6 +3,8 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
+  font-display: swap;
+  font: normal;
   src: url("fonts/0xProto/0xProto-Regular.woff2")format('woff2');
 }
 
@@ -11,14 +13,16 @@
   font-style: normal;
   font-weight: bold;
   font-display: swap;
+  font: bold;
   src: url("fonts/0xProto/0xProto-Bold.woff2")format('woff2');
 }
 
 @font-face {
   font-family: '0xProto';
   font-style: normal;
-  font-weight: bold;
+  font-weight:normal;
   font-display: swap;
+  font: italic;
   src: url("fonts/0xProto/0xProto-Italic.woff2")format('woff2');
 }
 
@@ -26,6 +30,7 @@
   --background: #241f31;
   --foreground: #eceae5;
   --accent: #f66151;
+  --secondary: #e6b948;
   --off-foreground: #c1c1c1;
   --container-width: 950px;
   --content-width: 870px;
@@ -48,6 +53,15 @@ body {
   background-color: var(--background);
   box-shadow: 10px 0px 10px black, -10px 0px 10px black;
 }
+
+h1,h2 {
+  color: var(--accent);
+}
+
+h3,h4 {
+  color: var(--secondary);
+}
+
 
 .logo {
 	font-size: x-large;
