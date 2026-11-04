@@ -27,11 +27,13 @@
   --foreground: #eceae5;
   --accent: #f66151;
   --off-foreground: #c1c1c1;
+  --container-width: 864px;
+  --content-width: 784px;
 }
 
 .embed-container {
-  width: var(--container-width);
-  height: calc(0.62 * var(--container-width));
+  width: var(--content-width);
+  height: calc(0.62 * var(--content-width));
 }
 
 body {
@@ -93,8 +95,8 @@ a.big-text {
 
 .breadcrumbs {
   list-style: none;
-  margin: 0;
-  padding: 2vw;
+  margin-top: 1vh;
+  margin-left: 0;
 }
 
 
@@ -110,8 +112,16 @@ a.big-text {
 
 
 a.share-copy { color: var(--off-foreground); }
-a.share-bluesky { color: #0077FF; }
-a.share-mastodon { color: #6364FF; }
-a.share-x-twitter { color: var(--off-foreground); }
 a.share-ko-fi { color: #ff2e2e; }
+a.share-bluesky { color: #0077FF; }
+a.share-x-twitter { color: var(--off-foreground); }
 a.share-itch-io { color: #c64b47; }
+a.share-mastodon { color: #6364FF; }
+a.share-github { color: var(--off-foreground); }
+
+@media (max-width: 684px) {
+  a.share-github,a.share-mastodon
+  {
+    visibility: hidden;
+  }
+}

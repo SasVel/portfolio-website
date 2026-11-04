@@ -8,6 +8,8 @@ pagination.pagerSize = 4
 copyright = "Created by Sas"
 
 [params]
+  #CSS params
+  containerWidth = "864px" # Sync with main CSS file manually.
 
   #Default post vaules
   author = "Sas"
@@ -18,7 +20,7 @@ copyright = "Created by Sas"
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = false
@@ -55,6 +57,9 @@ copyright = "Created by Sas"
 
 [params.cover]
   linkFullImages = true
+
+[params.gameLink]
+  koz = "https://itch.io/embed-upload/18108046?color=9e2835"
 
 [params.socials]
 	blueskyLink = "https://bsky.app/profile/sasvel.itch.io"

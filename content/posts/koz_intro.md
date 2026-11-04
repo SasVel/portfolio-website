@@ -2,8 +2,9 @@
 title = "This is Koz!"
 date = "2026-10-30T08:53:38+02:00"
 dateFormat = "02-01-2006" 
-#authorTwitter = "" #do not include @
 cover = "img/koz/koz_cover.png"
+layout = "game_page"
+embedLink = ".Site.Params.GameLink.Koz"
 tags = ["game-dev", "koz"]
 keywords = ["", ""]
 description = "This is an example post."

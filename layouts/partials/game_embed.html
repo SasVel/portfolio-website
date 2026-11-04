@@ -1,0 +1,19 @@
+{{- $gameLink := $ -}}
+
+<button type="button" onclick="showContent(this)">Play Game!</button>
+
+<script>
+  function showContent(button) {
+    button.style.visibility = "hidden";
+
+    parent = button.parentElement;
+    const iframe = document.createElement("iframe");
+    iframe.className = "embed-container";
+    iframe.src = "{{ $gameLink }}";
+    iframe.frameBorder = "0";
+    iframe.allowFullscreen = true;
+
+    parent.appendChild(iframe);
+  }
+</script>
+
