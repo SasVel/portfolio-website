@@ -1,0 +1,5 @@
+items:
+  - title: Open Domains Anaytics
+    description: This code gives us insight into the number of people that visit our website and where they are from.
+    is_functional: false
+    script_file: https://analytics.open-domains.com/script.js
