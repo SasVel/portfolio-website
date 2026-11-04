@@ -4,7 +4,6 @@ date = "2026-10-30T08:53:38+02:00"
 dateFormat = "02-01-2006" 
 cover = "img/koz/koz_cover.png"
 layout = "game_page"
-embedLink = ".Site.Params.GameLink.Koz"
 tags = ["game-dev", "koz"]
 keywords = ["", ""]
 description = "This is an example post."
@@ -12,6 +11,8 @@ showFullContent = false
 readingTime = true
 hideComments = false
 +++
+
+{{< game_embed name="Koz" link="https://itch.io/embed-upload/18108046?color=9e2835" rateLink="https://sasvel.itch.io/koz/rate">}}
 
 # The weird, yet charming idea.
 
@@ -58,9 +59,9 @@ But at least it worked, and that is a sacrifice I was willing to make. The game 
 
 It was a fun project that made me a better developer, no doubt about that. The ECS system from scratch made me sweat. Coding without an engine felt like making a whole new world out of nothing, it was incredibly freeing, yet very scary. You can't really blame anybody or any feature, when all features are made by you. **All decisions fall on your shoulders alone.**
 
-The game worked at the end and I was a happy bugger. But I was not satisfied, I didn't manage to make shaders work, good particle effects would also take forever. So I made my first game rewrite - from Pygame to Godot!
+The game worked at the end and I was a happy bugger. But I was not yet satisfied, I didn't manage to make shaders work, good particle effects would also take forever. So I made my first game rewrite - from Pygame to Godot!
 
-This is [the original repo](https://github.com/SasVel/Koz-Pygame.git) for the project if you want to enjoy some badly written code.
+This is [the original repo](https://github.com/SasVel/Koz-Pygame.git) for the project if you want to enjoy some *badly written code*.
 
 
 

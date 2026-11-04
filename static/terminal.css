@@ -27,8 +27,8 @@
   --foreground: #eceae5;
   --accent: #f66151;
   --off-foreground: #c1c1c1;
-  --container-width: 864px;
-  --content-width: 784px;
+  --container-width: 950px;
+  --content-width: 870px;
 }
 
 .embed-container {

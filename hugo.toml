@@ -9,7 +9,7 @@ copyright = "Created by Sas"
 
 [params]
   #CSS params
-  containerWidth = "864px" # Sync with main CSS file manually.
+  containerWidth = "950px" # Sync with main CSS file manually.
 
   #Default post vaules
   author = "Sas"

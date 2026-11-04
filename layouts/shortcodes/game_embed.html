@@ -1,0 +1,41 @@
+<div class="player">
+  <button id="playButton" type="button" onclick="showContent(this)">
+    Play {{ .Params.name }} in the browser!
+  </button>
+  <button id="stopButton" type="button" style="visibility: hidden;" onclick="clearContent(this)">
+    Stop {{ .Params.name }}.
+  </button>
+
+  {{ if .Params.rateLink }}
+  <button type="button" onclick="openLink({{ .Params.rateLink }})">Rate &amp; Review</button>
+  {{ end }}
+</div>
+
+<script>
+  function openLink(url) {
+    window.open(url, "_blank");
+  }
+
+  function showContent(button) {
+    const player = button.closest(".player");
+    const stopButton = document.getElementById("stopButton")
+    button.style.visibility = "hidden";
+    stopButton.style.visibility = "visible";
+
+    const iframe = document.createElement("iframe");
+    iframe.className = "embed-container";
+    iframe.src = {{ .Params.link }};
+    iframe.frameBorder = "0";
+    iframe.allowFullscreen = true;
+    player.appendChild(iframe);
+  }
+
+  function clearContent(button) {
+    const player = button.closest(".player");
+    const playButton = document.getElementById("playButton")
+
+    player.querySelector(".embed-container")?.remove();
+    playButton.style.visibility = "visible";
+    button.style.visibility = "hidden";
+  }
+</script>
