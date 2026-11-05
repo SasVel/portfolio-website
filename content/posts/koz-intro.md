@@ -6,13 +6,12 @@ cover = "img/koz/koz_cover.png"
 layout = "game_page"
 tags = ["game-dev", "koz"]
 keywords = ["", ""]
-description = "This is an example post."
+description = "Intro to the project and the journey it went through."
 showFullContent = false
 readingTime = true
-hideComments = false
 +++
 
-{{< game_embed name="Koz" link="https://itch.io/embed-upload/18108046?color=9e2835" rateLink="https://sasvel.itch.io/koz/rate">}}
+> {{< game_embed name="Koz" link="https://itch.io/embed-upload/18108046?color=9e2835" rateLink="https://sasvel.itch.io/koz/rate">}}
 
 # The weird, yet charming idea.
 

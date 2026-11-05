@@ -1,6 +1,6 @@
 +++
 title = "The True Value of R&D"
-date = "2026-11-04T21:44:17+02:00"
+date = "2026-07-03T21:44:17+02:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 cover = "img/covers/RnDCover.jpg"
 tags = ["article", "thoughts"]
