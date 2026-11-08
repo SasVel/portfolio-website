@@ -18,6 +18,7 @@
     {{- if and (.Param "readingTime") (eq (.Param "readingTime") true) -}}
       <span class="post-reading-time">{{ .ReadingTime }} {{ $.Site.Params.minuteReadingTime | default "min read" }} ({{ .WordCount }} {{ $.Site.Params.words | default "words" }})</span>
     {{- end -}}
+    {{ partial "share-buttons.html" . }}
   </div>
 
   {{ if .Params.tags }}

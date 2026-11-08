@@ -62,7 +62,6 @@ h3,h4 {
   color: var(--secondary);
 }
 
-
 .logo {
 	font-size: x-large;
   font-weight: bold;
@@ -97,6 +96,11 @@ h3,h4 {
   border-style: solid;
   text-decoration: none;
   transition: background 0.2s;
+}
+
+.share-buttons {
+  display: inline;
+
 }
 
 a.big-text {
@@ -140,5 +144,9 @@ a.share-github { color: var(--off-foreground); }
   }
   .logo {
     width: auto;
+  }
+
+  .share-buttons {
+    display: block;
   }
 }

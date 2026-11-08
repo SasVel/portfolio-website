@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <h1>Posts for: #{{ .Title }}</h1>
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    {{ range .Paginator.Pages }}
+      {{ partial "post-display.html" . }}
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
