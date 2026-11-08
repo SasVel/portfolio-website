@@ -11,8 +11,6 @@ showFullContent = false
 readingTime = true
 +++
 
-> {{< game_embed name="Koz" link="https://itch.io/embed-upload/18108046?color=9e2835" rateLink="https://sasvel.itch.io/koz/rate">}}
-
 # The weird, yet charming idea.
 
 Koz started as an ambitious university project for a pygame course.
@@ -62,5 +60,4 @@ The game worked at the end and I was a happy bugger. But I was not yet satisfied
 
 This is [the original repo](https://github.com/SasVel/Koz-Pygame.git) for the project if you want to enjoy some *badly written code*.
 
-
-
+{{< game_embed name="Koz" link="https://itch.io/embed-upload/18108046?color=9e2835" rateLink="https://sasvel.itch.io/koz/rate">}}

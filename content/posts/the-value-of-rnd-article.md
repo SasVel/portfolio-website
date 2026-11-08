@@ -5,19 +5,18 @@ date = "2026-07-03T21:44:17+02:00"
 cover = "img/covers/RnDCover.jpg"
 tags = ["article", "thoughts"]
 keywords = ["", ""]
+coverCredit = "Image by Hermann Traub from Pixabay."
 description = "In your own development."
 showFullContent = false
 readingTime = false
 hideComments = false
 +++
 
-**Image by [Hermann Traub](https://pixabay.com/users/hermann-130146/?utm**source=link-attribution&utm**medium=referral&utm**campaign=image&utm**content=462579) from [Pixabay](https://pixabay.com//?utm**source=link-attribution&utm**medium=referral&utm**campaign=image&utm**content=462579)**
-
 Research and Development AKA R&D is a common branch in many big companies dedicated to **“playing around”** with ideas until they strike something good. 
 
 > **Experimentation is not treated as an afterthought, but as a necessity for the survival of the company.**
 
-Companies have a metric called **“R &D Intensity”**, the ratio of revenue spent on R&D. The riskier, or “growth oriented” the company is, the bigger the R&D intensity. Biotech is naturally a leader in the field.
+Companies have a metric called **“R&D Intensity”**, the ratio of revenue spent on R&D. The riskier, or “growth oriented” the company is, the bigger the R&D intensity. Biotech is naturally a leader in the field.
 
 Our personal R&D is very important, since being a passionate person with lots of ideas is a pretty risky business. We often get distracted by our daily tasks and responsibilities, that we forget that some personal R&D could make the same tasks a lot easier. **Permanently.**
 
@@ -31,7 +30,7 @@ There is a programming principle called [DRY(Don’t Repeat Yourself)](https://e
 
 You don’t have to set aside special R&D time, just be ready to grab the opportunity when it presents itself. Let your idea blossom, instead of shutting it down because you “really don’t wanna bother right now”. The results are transforming.
 
-# For anyone using a computer in their day-to-day
+## For anyone using a computer in their day-to-day
 * * *
 
 ### Touch typing
@@ -46,9 +45,11 @@ You don’t have to set aside special R&D time, just be ready to grab the opport
 
   * [Glyphica: Typing Survival](https://store.steampowered.com/app/2400160/Glyphica**Typing**Survival/)
 
-## Linux
+### Linux
 
 Play around with Linux. Boot up a virtual machine, dual boot or just flash an old laptop. You can ask a tech savvy friend for help, if the task is daunting. Linux has improved drastically the past couple of years and we have reached the point of surpassing Windows in many aspects. You won’t regret it. Give these distros a spin:
+
+  * [Fedora KDE Plasma](https://fedoraproject.org/kde/)
 
   * [Mint Cinnamon](https://www.linuxmint.com/)
 
@@ -56,9 +57,8 @@ Play around with Linux. Boot up a virtual machine, dual boot or just flash an ol
 
   * [Ubuntu](https://ubuntu.com/download/desktop)
 
-  * [Pop!_OS](https://system76.com/pop)
 
-# Software developer exclusives
+## Software developer exclusives
 * * *
 
 ### LINUX. THIS IS NOT A SUGGESTION. DO IT. 

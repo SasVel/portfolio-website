@@ -5,14 +5,13 @@ date = "2026-06-27T18:59:25+02:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = "img/covers/CodePhotographerCover.jpg"
+coverCredit = "Photo by me."
 tags = ["article", "thoughts"]
 keywords = ["", ""]
 description = "The value of a re-write."
 showFullContent = false
 readingTime = true
 +++
-
-*Photo by me.*
 
 I’m a sort of experienced programmer by now, with a couple years under my belt working on various projects, both professional and personal. Wouldn’t say I’m great, but I’ve been around the block.
 

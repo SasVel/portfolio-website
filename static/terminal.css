@@ -87,28 +87,8 @@ h3,h4 {
   z-index: 1;
 }
 
-.share-link {
-  display: inline-block;
-  margin: 0 0.5em 0.5em 0;
-  padding: 0.5em 1em;
-  border: 2px;
-  border-color: var(--accent);
-  border-style: solid;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-
-.share-buttons {
-  display: inline;
-
-}
-
 a.big-text {
   font-size: 19px;
-}
-
-.share-link:hover {
-  border-style: dashed;
 }
 
 .breadcrumbs {
@@ -128,15 +108,6 @@ a.big-text {
   color: var(--off-foreground);
 }
 
-
-a.share-copy { color: var(--off-foreground); }
-a.share-ko-fi { color: #ff2e2e; }
-a.share-bluesky { color: #0077FF; }
-a.share-x-twitter { color: var(--off-foreground); }
-a.share-itch-io { color: #c64b47; }
-a.share-mastodon { color: #6364FF; }
-a.share-github { color: var(--off-foreground); }
-
 @media (max-width: 684px) {
   a.share-github,a.share-mastodon
   {
@@ -147,6 +118,8 @@ a.share-github { color: var(--off-foreground); }
   }
 
   .share-buttons {
+    margin: 20px 0;
     display: block;
+
   }
 }

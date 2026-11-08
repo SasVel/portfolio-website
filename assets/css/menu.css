@@ -142,6 +142,7 @@
   .menu--mobile .menu__dropdown {
     left: auto;
     right: 0;
+    width: 130px;
   }
 
   .menu--language-selector .menu__trigger {

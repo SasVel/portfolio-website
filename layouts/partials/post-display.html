@@ -13,7 +13,6 @@
         <span class="post-author">{{ . }}</span>
         {{- end -}}
         <a class="post-reading-time">{{ .ReadingTime }} minutes</a>
-        {{ partial "share-buttons.html" . }}
     </div>
 
     {{ if .Params.tags }}
@@ -25,22 +24,20 @@
         {{ end }}
         </span>
     {{ end }}
+    <h3 class="description-text">>> {{ .Description | markdownify }}</h3>
 
     {{ partial "cover.html" . }}
 
     <div class="post-content">
-        {{ if .Params.showFullContent }}
-        {{ .Content }}
-        {{ else if .Description }}
-        <p>{{ .Description | markdownify }}</p>
-        {{ else }}
-        {{ .Summary }}
-        {{ end }}
+        <div class="summary-fade">
+            {{ .Summary | truncate 500 "..." }}
+        </div>
     </div>
 
     {{ if not .Params.showFullContent }}
         <div>
         <a class="big-text button inline" href="{{ .RelPermalink }}">[{{ $.Site.Params.ReadMore }}]</a>
+        {{ partial "share-buttons.html" . }}
         </div>
     {{ end }}
 </article>

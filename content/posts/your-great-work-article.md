@@ -5,16 +5,15 @@ date = "2026-07-22T21:09:42+02:00"
 cover = "img/covers/CodexRunicus.jpg"
 tags = ["article", "thoughts"]
 keywords = ["", ""]
+coverCredit = "The Codex Runicus, a law code written in runes (c. 1300 CE)"
 description = "Thoughts about creativity and sacrifice."
 showFullContent = false
 readingTime = true
 +++
 
-*The Codex Runicus, a law code written in runes (c. 1300 CE)*
+> **"Create for the sake of creation, not for the sake of accomplishment, and you will be truly free from the shackles of normality.”**
 
-### **"Create for the sake of creation, not for the sake of accomplishment, and you will be truly free from the shackles of normality.”**
-
-# The Great Work
+## The Great Work
 
 The Great Work is a term from Alchemy and Hermeticism, referring to a singular ultimate work of the practitioner. Their *Magnum Opus*. The work that defines them and drives them to discover the hidden secrets of the universe.
 
@@ -24,7 +23,7 @@ But the rest of this philosophy seems to be missing in modern interpretations. P
 
 You are an ingredient of the process, as much as the pencil and paper. You are a conduit for the creation. Logically the work leaves its mark on you, and by virtue of, makes you grow.
 
-# Odin and the World Tree
+## Odin and the World Tree
 
 The saga of Odin and the runes is a story about self sacrifice in order to achieve cosmic insight. Of course, read between the lines and don’t interpret any mythology as literal (you know who you are). I’ll summarize it, so we are on the same page -
 
@@ -44,7 +43,7 @@ Change, only as a result of sacrifice in order to achieve great goals. The hidde
 
 **Through you, does your work live, not the opposite.**
 
-# My experience
+## My experience
 
 I’ve had a dilemma not so long ago. I make video games and it’s a long process. The average length of development of a mid-sized game is around 5 years, also known as a development cycle. Had to put a game of mine on a big hiatus, due to my day job at the time. Meanwhile, I picked up CAD modelling and 3D printing, and that was really fun. Obviously, the guilt of ditching my game for something else in my very limited free time (back then) was enormous. I was a game developer after all, that is what I’ve wanted to be most of my life. How dare I do something else, when I can work on my dream? Shameful.
 
