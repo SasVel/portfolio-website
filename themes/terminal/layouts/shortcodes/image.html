@@ -1,3 +1,14 @@
-{{ if .Get "src" }}
-<img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} {{ with .Get "width" }} width="{{ . | plainify }}" {{ end }} {{ with .Get "height" }} height="{{ . | plainify }}" {{ end }} />
+{{ with .Get "src" }}
+  {{ $src := . }}
+  {{ with $.Page.Resources.GetMatch $src }}
+    <img src="{{ .RelPermalink }}"
+      {{ with $.Get "alt" }}alt="{{ . | plainify }}"{{ end }}
+      class="{{ with $.Get "position" }}{{ . }}{{ else }}left{{ end }}"
+      {{ with $.Get "style" }}style="{{ . | safeCSS }}"{{ end }}
+      {{ with $.Get "width" }}width="{{ . | plainify }}"{{ end }}
+      {{ with $.Get "height" }}height="{{ . | plainify }}"{{ end }}>
+  {{ else }}
+    {{ errorf "Image %q not found in page resources for %q" $src $.Page.Path }}
+  {{ end }}
 {{ end }}
+
