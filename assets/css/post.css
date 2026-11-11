@@ -93,13 +93,13 @@
 }
 
 .post ul {
-  list-style: none;
+  list-style:square;
 }
 
 .post ul li:not(:empty)::before {
-  content: "-";
+  content: "";
   position: absolute;
-  left: -20px;
+  left: -15px;
   color: var(--accent);
 }
 
