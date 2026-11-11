@@ -4,7 +4,7 @@
       {{ .Content }}
     </div>
   {{ end }}
-  <h3>Hi, I'm Sas! I'm an indie game developer/maker with too many hobbies. <br>I spill my thoughts about them in little articles on this page.</h3>
+  
   <div class="posts">
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
     {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}

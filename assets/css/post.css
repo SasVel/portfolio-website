@@ -92,9 +92,6 @@
   margin: 25px 0;
 }
 
-.post ul {
-  list-style:square;
-}
 
 .post ul li:not(:empty)::before {
   content: "";

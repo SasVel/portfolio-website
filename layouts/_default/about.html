@@ -1,0 +1,32 @@
+{{ define "main" }}
+<h1 class="post-title"><i class="fa-solid fa-circle-info"></i> {{ .Title }}</h1>
+  <h3>Contact me!</h3>
+  <h5>Share your thoughts about a game, report a bug, ask me a question! Have a business inquiry? Drop it here!</h5>
+  <form action="https://formkeep.com/f/869b31a0c195"
+        accept-charset="UTF-8"
+        enctype="multipart/form-data"
+        method="POST">
+    <input type="hidden" name="utf8" value="✓">
+
+    <div class="form-section">
+    <label for="name-input"><i class="fa-solid fa-pen-to-square"></i> Your name: </label>
+    <input type="name" id="name-input" name="name" placeholder="John Doe">
+    <br>
+    </div>
+
+    <div class="form-section">
+    <label for="email-address"><i class="fa-solid fa-envelope"></i> Email Address: </label>
+    <input type="email" id="email-address" name="email" placeholder="johndoe@coolmail.com">
+    <br>
+    </div>
+
+    <label for="content-input"><i class="fa-solid fa-file-lines"></i> Content: </label>
+    <br>
+    <textarea type="content" id="content-input" name="content" placeholder="Say hi!"></textarea>
+    <br>
+
+    <button type="submit">Submit!</button>
+  </form>
+
+  {{ .Content }}
+{{ end }}
